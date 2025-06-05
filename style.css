@@ -10,18 +10,43 @@ header {
     background-color: #002fca;
     color: white;
     text-align: center;
-    padding: 1.5rem 1rem;
+    padding: 1rem;
 }
 
-header h1 {
-    margin: 0;
-    font-size: 2rem;
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    background-color: #333;
+    padding: 0.5rem;
 }
-CSS
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero{
+    background-image: url('imagem-destaque.jpg'); /*substitua pela sua imagem */
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+.hero h2 {
+    font-size: 2.5rem 
+    text-align: center;
+    padding: 0 1rem;
+}
+
 main {
-    max-width: 1000px;
-    margin: 2rem auto;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .intro {
@@ -30,19 +55,16 @@ main {
 }
 
 .curiosidades {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
+    display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   gap: 1.5rem;
 }
 
 .curiosidade-card {
-    background-color: white;
+    background-color: #fff;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 1rem;
-    width: 300px;
-    transition: transform 0.3s ease;
 }
 
 .curiosidade-card:hover {
