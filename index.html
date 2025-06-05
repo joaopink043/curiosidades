@@ -1,75 +1,61 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Curiosidades Incríveis</title>
     <link rel="stylesheet" href="style.css" />
-</head>
-<body>
+  </head>
+  <body>
 
+    <!-- Cabeçalho -->
     <header>
+      <div class="container">
         <h1>Curiosidades Incríveis</h1>
+        <nav>
+          <ul>
+            <li><a href="#intro">Início</a></li>
+            <li><a href="curiosidades.html">Curiosidades</a></li>
+            <li><a href="#sugerir">Sugestões</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
-    <nav>
-        <a href="#">inicio</a>
-        <a href="curiosidades">curiosidades</a>
-        <a href="videos">videos</a>
-        <a href="galeria">galeria</a>
-        <a href="links">links</a>
-    </nav>
-
-    <div class="hero">
-        <h2>Explore as curiosidades mais fascinantes do planeta</h2>
-    </div>
-
+    <!-- Seção Principal -->
     <main>
-        <section class="intro">
-            <p>Descubra curiosidades fascinantes sobre o mundo ao nosso redor</p>
-        </section>
+      <section id="intro" class="intro">
+        <h2>Descubra curiosidades fascinantes sobre o mundo ao nosso redor!</h2>
+        <p>Prepare-se para se surpreender com fatos incríveis e pouco conhecidos.</p>
+      </section>
 
-        <section class="curiosidades" id="curiosidades">
-            <div class="curiosidades-card">
-                <h3>Voce sabia?</h3>
-                <p>O polvo tem tres coraçoes e o sangue azul</p>
-            </div>
-            <div class="curiosidades-card">
-                <h3>IFato curioso</h3>
-                <p>A lua se afasta da Terra cerca de 3,8 cm por ano</p>
-            </div>
-           <div class="intro">
-            <h3>Inacreditavel!</h3>
-            <p>Existem mais estrelas no universo do que grãos de areia em todas as praias da Terra.</p>
+      <section id="curiosidades" class="curiosidades">
+        <div class="curiosidade-card">
+          <img src="yuyube.png" width="200" height="200" alt="Youtube">
+          <h3>Você sabia?</h3>
+          <p>A cada minuto, cerca de 72 horas de conteúdo são enviadas ao site de vídeos Youtube. Isso mostra a quantidade de informação que é compartilhada diariamente na plataforma.</p>
         </div>
-        </section>
 
-        <section class="video-section" id="videos">
-            <h2>Veja também:</h2>
-            <p>Assista a um video cheio de curiosidades interessantes!</p>
-            <iframe scr="https://www.youtube.com/embed/x5" allowfullscreen></iframe>
-            </section>
+        <div class="curiosidade-card">
+          <img src="lua.png" width="200" height="200" alt="Lua">
+          <h3>Fato curioso</h3>
+          <p>A Lua se afasta da Terra cerca de 3,8 cm por ano.</p>
+        </div>
 
-            <section class="galeria" id="galeria">
-                <!--Subistitua as URLs pela suas imagens -->
-                <img scr="terra.png" alt="planeta Terra">
-                <img scr="imagem2.jpg" alt="imagem curiosa 2">
-                <img scr="imagem3.jpg" alt="imagem curiosa 3">
-            </section>
+        <div class="curiosidade-card">
+          <img src="estrelas.png" width="200" height="200" alt="Estrelas no universo">
+          <h3>Incrível!</h3>
+          <p>Existem mais estrelas no universo do que grãos de areia em todas as praias da Terra.</p>
+        </div>
+      </section>
+    </main>
 
-<section class="links-uteis" id="links">
-    <h2>links uteis</h2>
-    <ul>
-        <li><a href="https://pt.wikipedia.org/wiki/curiosidades" target="-blank">Wikipedia - curiosidades</a></li>
-        <li><a href="https://www.bbc.com/portuguese" target="-blank">BBC Noticias</a></li>
-        <li><a href="https://www.nationalgeographicbrasil.com" target="-blank">National Geographia</a></li>
-      </ul>
-    </section>
-  </main>
 
-<footer>
-    <p>Site desenvolvido por João Pedro Rosa Colegio Estadual Vicente Rijo Londrina PR</p>
-</footer>
+    <!-- Rodapé -->
+    <footer id="footer">
+      <p>Site desenvolvido por Henrique Gabriell Viveiros de Jesus - Colégio Estadual Vicente Rijo - Londrina PR</p>
+    </footer>
 
-</body>
+  </body>
 </html>
+
