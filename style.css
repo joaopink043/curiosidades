@@ -15,7 +15,7 @@ body {
 
 /* Cabeçalho */
 header {
-  background-color: #004080;
+  background-color: #b50000;
   color: white;
   padding: 20px 0;
 }
@@ -89,7 +89,7 @@ main {
 }
 
 .curiosidade-card h3 {
-  color: #004080;
+  color: #b50000;
   margin-bottom: 15px;
 }
 
@@ -106,7 +106,7 @@ main {
 
 /* Rodapé */
 footer {
-  background-color: #222;
+  background-color: #b50000;
   color: #ccc;
   text-align: center;
   padding: 15px 10px;
